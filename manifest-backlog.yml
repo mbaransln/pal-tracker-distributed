@@ -4,7 +4,6 @@ applications:
   host: backlog-pal-mkb
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://backlog-pal-mkb.apps.sys.longs.pal.pivotal.io
   services:
   - tracker-backlog-database
+  - tracker-service-registry
