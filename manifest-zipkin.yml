@@ -4,8 +4,5 @@ applications:
   host: zipkin-pal-mkb
   memory: 1G
   instances: 1
- #Not required for LAB
- # env:
- #   TRUST_CERTS: FILL_ME_IN
   services:
   - tracker-amqp
